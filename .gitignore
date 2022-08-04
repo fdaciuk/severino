@@ -26,3 +26,4 @@ dist-ssr
 lib/
 .merlin
 .bsb.lock
+src/*.bs.js
