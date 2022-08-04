@@ -1,0 +1,24 @@
+{
+  "name": "severino",
+  "namespace": false,
+  "reason": {
+    "react-jsx": 3
+  },
+  "bs-dependencies": ["@rescript/react", "@rescriptbr/ancestor"],
+  "ppx-flags": [],
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "package-specs": {
+    "module": "es6",
+    "in-source": true
+  },
+  "warnings": {
+    "error": "+8"
+  },
+  "suffix": ".bs.js",
+  "bsc-flags": ["-bs-g", "-bs-super-errors"]
+}
